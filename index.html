@@ -1,0 +1,45 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+<html>
+<body>
+<title> GARIMA GUPTA</title>
+<h1> Welcome to my guessing game</h1>
+
+<?php
+$correctnumber=14; //change this number //
+
+if($_GET['guess'])
+{
+  if (is_numeric($_GET['guess'])===FALSE)
+ {
+echo "Your guess is not a number";
+}
+else if ($_GET['guess']<$correctnumber)
+ {
+echo "Your guess is too low";
+}
+else if ($_GET['guess']>$correctnumber)
+ {
+echo "Your guess is too high";
+}
+else if ($_GET['guess']==$correctnumber)
+ {
+echo "Congratulations - You are right";
+}
+}
+else
+{
+echo "Missing guess parameter <br> Your guess is too short";
+}
+
+
+
+?>
+</body>
+</html>
