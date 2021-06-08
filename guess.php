@@ -1,6 +1,6 @@
 <html>
 <body>
-<title> GARIMA GUPTA 45dc03f9 (TYPE YOUR NAME AS TITLE )</title>
+<title> GARIMA GUPTA 45dc03f9 </title>
 <h1> Welcome to my guessing game</h1>
 
 <?php
